@@ -1,0 +1,17 @@
+version: '3' 
+services:
+  nodejs-app-docker:
+    image: openkbs/nodejs-app-docker
+    build:
+      context: ./Dockerfile
+    container_name: nodejs-app-docker
+    environment:
+      - USER_ID=${USER_ID:-1000}
+      - GROUP_ID=${GROUP_ID:-1000}
+    env_file:
+      - ./docker.env
+    ports:
+      - 38080:8080
+    volumes:
+      - ./workspace:/home/developer/workspace
+
