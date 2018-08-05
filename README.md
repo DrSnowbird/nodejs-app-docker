@@ -4,6 +4,9 @@ To provide a Docker skeleton for dockerizing NodeJS application
 # How to use?
 * 1.) Create new NodeJS "./app" directory 
 The "./app" directory will be your NodeJS app directory.
+```
+mkdir ./app
+```
 * 2.) Build your NodeJS image
 ```
 ./build.sh
