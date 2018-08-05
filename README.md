@@ -1,13 +1,6 @@
 # nodejs-app-docker
 To provide a Docker skeleton for dockerizing NodeJS application
 
-# Build
-- This project provides a simple Dockerfile for the purpose of illustration only. You need to extend/modify the Docker to
-support whatever you want to do.
-```
-./build.sh
-```
-
 # How to use?
 * 1.) Create new NodeJS "./app" directory 
 The "./app" directory will be your NodeJS app directory.
