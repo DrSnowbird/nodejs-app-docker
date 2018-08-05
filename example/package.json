@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-app-docker",
+  "version": "1.0.0",
+  "description": "Dockerizing Node.js on Docker",
+  "author": "DrSnowbird <DrSnowbird@openkbs.org>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
