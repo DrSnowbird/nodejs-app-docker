@@ -1,5 +1,5 @@
 #FROM openkbs/jdk-mvn-py3-x11
-FROM node:8
+FROM node:10
 
 MAINTAINER "DrSnowbird <DrSnowbird@openkbs.org>"
 
