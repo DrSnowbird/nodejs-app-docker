@@ -3,7 +3,8 @@ services:
   nodejs-app-docker:
     image: openkbs/nodejs-app-docker
     build:
-      context: ./Dockerfile
+      context: .
+      dockerfile: Dockerfile
     container_name: nodejs-app-docker
     environment:
       - USER_ID=${USER_ID:-1000}
