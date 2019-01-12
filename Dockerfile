@@ -1,13 +1,12 @@
-#FROM openkbs/jdk-mvn-py3-x11
-FROM node:10
+FROM node:11
 
 MAINTAINER "DrSnowbird <DrSnowbird@openkbs.org>"
 
 #### ---- Build Specification ----
 # Metadata params
-ARG BUILD_DATE=${BUILD_DATE:-}
-ARG VERSION=${BUILD_DATE:-}
-ARG VCS_REF=${BUILD_DATE:-}
+ARG BUILD_DATE=${BUILD_DATE:-`date`}
+ARG VERSION=${VERSION:-}
+ARG VCS_REF=${VCS_REF:-}
 
 #### ---- Product Specifications ----
 ARG PRODUCT=${PRODUCT:-}

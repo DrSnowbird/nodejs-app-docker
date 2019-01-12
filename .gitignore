@@ -61,4 +61,4 @@ typings/
 .next
 
 #### ---- NodeJS app directory ----
-app
+app/*
