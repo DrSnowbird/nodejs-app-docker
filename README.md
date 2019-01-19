@@ -1,4 +1,4 @@
-# nodejs-app-docker
+# Nodejs Application development Utility Docker Container
 To provide a Docker skeleton for dockerizing NodeJS application
 
 # How to use?

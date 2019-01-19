@@ -62,3 +62,10 @@ typings/
 
 #### ---- NodeJS app directory ----
 app/*
+
+*.zip
+*.tar
+*.tmp
+*.swp
+tmp
+
